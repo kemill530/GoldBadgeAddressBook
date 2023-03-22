@@ -20,6 +20,18 @@ public class ContactRepository
         return _driversDictionary;
     }
 
+        public Contact GetContactById(int contactID)
+    {
+        foreach (KeyValuePair<int, Contact> driver in GetAllContacts())
+        {
+            if (driver.Value.ContactID == contactID)
+            {
+                return driver.Value;
+            }
+        }
+        return default;
+    }
+
     public Contact GetContactByName(string firstName)
     {
         foreach (KeyValuePair<int, Contact> driver in GetAllContacts())
@@ -74,18 +86,5 @@ public class ContactRepository
         }
     }
 
-
-    //Helper Method
-    public Contact GetContactById(int contactID)
-    {
-        foreach (KeyValuePair<int, Contact> driver in GetAllContacts())
-        {
-            if (driver.Value.ContactID == contactID)
-            {
-                return driver.Value;
-            }
-        }
-        return default;
-    }
 
 }
