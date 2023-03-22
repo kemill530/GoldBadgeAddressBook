@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "lolLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/lolLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lolLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lolLibrary/1.0.0": {
+      "type": "project",
+      "path": "../lolLibrary/lolLibrary.csproj",
+      "msbuildProject": "../lolLibrary/lolLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "lolLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kemil\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolConsole\\lolConsole.csproj",
+      "projectName": "lolConsole",
+      "projectPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolConsole\\lolConsole.csproj",
+      "packagesPath": "C:\\Users\\kemil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\kemil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj": {
+              "projectPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

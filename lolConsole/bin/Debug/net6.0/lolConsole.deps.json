@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "lolConsole/1.0.0": {
+        "dependencies": {
+          "lolLibrary": "1.0.0"
+        },
+        "runtime": {
+          "lolConsole.dll": {}
+        }
+      },
+      "lolLibrary/1.0.0": {
+        "runtime": {
+          "lolLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lolConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "lolLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

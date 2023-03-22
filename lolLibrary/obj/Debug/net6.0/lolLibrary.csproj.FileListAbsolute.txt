@@ -1,0 +1,12 @@
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.csproj.AssemblyReference.cache
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.AssemblyInfoInputs.cache
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.AssemblyInfo.cs
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\bin\Debug\net6.0\lolLibrary.deps.json
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\bin\Debug\net6.0\lolLibrary.dll
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\bin\Debug\net6.0\lolLibrary.pdb
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.dll
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\refint\lolLibrary.dll
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\lolLibrary.pdb
+C:\Users\kemil\OneDrive\Desktop\codingFoundations\dotnetProjects\lolAddressBook\lolLibrary\obj\Debug\net6.0\ref\lolLibrary.dll
