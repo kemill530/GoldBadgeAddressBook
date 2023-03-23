@@ -61,6 +61,9 @@ public class ProgramUI
     private void ViewAllContacts()
     {
         Console.Clear();
+        System.Console.WriteLine(
+            "Full Contact List\n" +
+            "----------------------\n");
         foreach (KeyValuePair<int, Contact> driver in _contactRepo.GetAllContacts())
         {
             System.Console.WriteLine($"ID: {driver.Value.ContactID}\tName: {driver.Value.FullName}");
@@ -73,7 +76,7 @@ public class ProgramUI
         Console.Clear();
         ViewAllContacts();
 
-        System.Console.WriteLine("Enter the First Name of the Contact you'd like to view:");
+        System.Console.WriteLine("Enter the FIRST NAME of the Contact you'd like to view:");
         string firstName = Console.ReadLine();
 
         Contact driver = _contactRepo.GetContactByName(firstName);
@@ -83,6 +86,8 @@ public class ProgramUI
             Console.Clear();
             System.Console.WriteLine
             (
+                "Contact's Profile\n" +
+                "---------------------\n"+
                 $"ID #:\t{driver.ContactID}\n" +
                 $"First Name:\t{driver.FirstName}\n" +
                 $"Last Name:\t{driver.LastName}\n" +
@@ -101,6 +106,9 @@ public class ProgramUI
     private void AddNewContact()
     {
         Console.Clear();
+        System.Console.WriteLine(
+            "Let's add a new contact\n" +
+            "------------------------\n");
 
         Contact newContact = new Contact();
         //ID
@@ -171,21 +179,13 @@ public class ProgramUI
             System.Console.WriteLine(
                 $"Contact's Phone: {contactToEdit.PhoneNumber}\n" +
                 "Enter the updated phone number (press Enter to skip):");
-                // string phoneInput = Console.ReadLine();
                 string phoneInput = UpdatedInfo("no change", Console.ReadLine());
                 if(phoneInput != "no change")
                 {
                     contactToEdit.PhoneNumber = uint.Parse(phoneInput);
                 }
                 else {};
-
-            //     contactToEdit.PhoneNumber = uint.Parse(UpdatedInfo(contactToEdit.PhoneNumber, Console.ReadLine()));
-            // // System.Console.WriteLine(
-            // //     $"Contact's Phone: {contatToEdit.PhoneNumber}\n" +
-            // //     "Enter the updated phone number (press Enter to skip):");
-            // //     contactToEdit.PhoneNumber = uint.Parse(Console.ReadLine());
-            // //     if()
-            // uint.Parse()
+            
         }
         else
         {
