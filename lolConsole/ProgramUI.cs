@@ -230,7 +230,7 @@ public class ProgramUI
 
 
     //Helper Methods
-       //"Enter to skip" - this does not replace the update fields if user presses enter.
+       //"Enter to skip" - this will not replace the update fields if user presses enter.
     private string UpdatedInfo(string existingInfo, string inputUpdateInfo)
     {
         if(string.IsNullOrWhiteSpace(inputUpdateInfo))

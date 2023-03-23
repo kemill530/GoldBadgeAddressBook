@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\lolTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj",
+        "projectName": "lolLibrary",
+        "projectPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj",
+        "packagesPath": "C:\\Users\\kemil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\lolTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\lolTests.csproj",
+        "projectName": "lolTests",
+        "projectPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\lolTests.csproj",
+        "packagesPath": "C:\\Users\\kemil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kemil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj": {
+                "projectPath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolLibrary\\lolLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

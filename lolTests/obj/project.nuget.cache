@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "siduwfjDsA3aDCYsFeIHM75iwN1x9RcmTFHqGU88rvqCW8ldz51lvuqNVZLlbio/V6UffuCK80YUPsGJwf0frA==",
+  "dgSpecHash": "jIOnYIdZwhJDczNGL68O2WLXz9Rlz1AvCAHVhCJBzUC8vR0L4gmLqKPj/rPWJrkOGyIBQJwbJ3Hbmdkp1uYq3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTest\\lolTest.csproj",
+  "projectFilePath": "C:\\Users\\kemil\\OneDrive\\Desktop\\codingFoundations\\dotnetProjects\\lolAddressBook\\lolTests\\lolTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kemil\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kemil\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

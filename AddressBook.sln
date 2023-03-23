@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lolConsole", "lolConsole\lolConsole.csproj", "{4F0043B8-CDC6-4E3E-8013-876F9E4CCC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lolLibrary", "lolLibrary\lolLibrary.csproj", "{15F32E83-C0F0-4011-9CEB-9D6377EB56B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lolTests", "lolTests\lolTests.csproj", "{5F382FA2-2881-435C-84ED-C6BF7DF66C36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F0043B8-CDC6-4E3E-8013-876F9E4CCC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0043B8-CDC6-4E3E-8013-876F9E4CCC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0043B8-CDC6-4E3E-8013-876F9E4CCC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0043B8-CDC6-4E3E-8013-876F9E4CCC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F32E83-C0F0-4011-9CEB-9D6377EB56B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F32E83-C0F0-4011-9CEB-9D6377EB56B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F32E83-C0F0-4011-9CEB-9D6377EB56B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F32E83-C0F0-4011-9CEB-9D6377EB56B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F382FA2-2881-435C-84ED-C6BF7DF66C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F382FA2-2881-435C-84ED-C6BF7DF66C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F382FA2-2881-435C-84ED-C6BF7DF66C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F382FA2-2881-435C-84ED-C6BF7DF66C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
