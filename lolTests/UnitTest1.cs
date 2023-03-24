@@ -69,6 +69,21 @@ public class UnitTest1
     }
 
     [TestMethod]
+    public void UpdateExistingContact_ShouldReturnEqual()
+    {
+        //Arrange - need to create as not pulling from TI or repo, so seeding inside this TestMethod only
+        Contact newDriverInfo = new Contact(8, "Kali", "Miller", "303 This Street, Noblesville,IN", "kali@lowell.com", 3175551234);
+
+        //Act
+        var updatedKali = _repo.UpdateExistingContact(newDriverInfo);
+
+        string expected = "303 This Street, Noblesville,IN";
+        string actual = newDriverInfo.Address;
+
+        Assert.AreEqual(expected, actual);
+    }
+
+    [TestMethod]
     public void DeleteExistingContact_ShouldReturnNull()
     {
         var Kali = _repo.GetContactByName("Kali");
